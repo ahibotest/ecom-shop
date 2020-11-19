@@ -1,0 +1,61 @@
+.brand_name {
+  font-size: 15px;
+  font-style: bold;
+  color: gray;
+}
+
+.bi-list {
+  margin-left: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.bi-search {
+  font-size: 10px;
+  margin-left: 30px;
+  color: gray;
+}
+
+.search_input {
+  font-size: 15px;
+  color: gray;
+  margin-left: 25px;
+  font-style: regular;
+}
+
+.store_name {
+  font-size: 15px;
+  margin-left: 200px;
+}
+
+.bi-chevron-down {
+  margin-left: 3px;
+  font-size: 11px;
+}
+
+.bi-envelope {
+  margin-left: 100px;
+  color: gray;
+  font-size: 15px;
+}
+
+.bi-bell {
+  margin-left: 50px;
+  color: gray;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.bi-power {
+  margin-left: 50px;
+  color: gray;
+  font-size: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
