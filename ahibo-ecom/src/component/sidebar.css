@@ -3,11 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  flex: 6%;
-  margin-top: 30px;
-  color: gray;
-}
-
-.bi-chat-left-fill {
-  color: rgb(24, 219, 24);
+  width: 70px;
+  color: rgb(206, 191, 191);
+  background-color: white;
 }

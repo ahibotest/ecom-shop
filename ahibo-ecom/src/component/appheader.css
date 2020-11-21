@@ -1,17 +1,16 @@
-.brand_name {
-  font-size: 15px;
-  font-style: bold;
-  color: gray;
+.Brand {
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
 }
-
 .bi-list {
-  margin-left: 20px;
+  margin-left: 50px;
   font-size: 20px;
   color: gray;
 }
 
 .bi-search {
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 30px;
   color: gray;
 }
@@ -21,6 +20,8 @@
   color: gray;
   margin-left: 25px;
   font-style: regular;
+  outline: none;
+  border: none;
 }
 
 .store_name {
@@ -34,7 +35,7 @@
 }
 
 .bi-envelope {
-  margin-left: 100px;
+  margin-left: 400px;
   color: gray;
   font-size: 15px;
 }
@@ -58,4 +59,5 @@
   align-items: center;
   padding: 10px;
   height: 50px;
+  background-color: white;
 }

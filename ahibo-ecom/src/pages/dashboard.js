@@ -8,7 +8,7 @@ function dashboard() {
           width="1em"
           height="1em"
           viewBox="0 0 16 16"
-          class="bi bi-house-door-fill"
+          className="bi bi-house-door-fill"
           fill="currentColor"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -20,11 +20,27 @@ function dashboard() {
         </svg>
         <p className="active_menu_display"> Dashboard</p>
       </div>
-      <div className="sale_card">
-        <div className="innercard_container">
-          <p className="weekly_sales">Weekly sales</p>
-          <p className="weekly_dollar">$150.00</p>
-          <p></p>
+      <div className="top_cards_container">
+        <div className="card sales_card">
+          <div className="innercard_container">
+            <p className="weekly_sales">Weekly sales</p>
+            <p className="weekly_dollar">$150.00</p>
+            <p></p>
+          </div>
+        </div>
+        <div className="card returns_card">
+          <div className="innercard_container">
+            <p className="weekly_sales">Weekly sales</p>
+            <p className="weekly_dollar">$150.00</p>
+            <p></p>
+          </div>
+        </div>
+        <div className="card revenue_card">
+          <div className="innercard_container">
+            <p className="weekly_sales">Weekly sales</p>
+            <p className="weekly_dollar">$150.00</p>
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
