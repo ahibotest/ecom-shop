@@ -103,3 +103,70 @@ label {
   margin-bottom: 30px;
   cursor: pointer;
 }
+
+/* ============= Appheader Styling ============== */
+
+.Brand {
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.bi-list {
+  font-size: 20px;
+  margin-left: 15px;
+  color: gray;
+}
+
+.bi-search {
+  font-size: 15px;
+  color: gray;
+}
+
+.search_input {
+  font-size: 15px;
+  color: gray;
+  font-style: regular;
+  outline: none;
+  border: none;
+}
+
+.store_name {
+  font-size: 15px;
+}
+
+.bi-chevron-down {
+  font-size: 11px;
+}
+
+.bi-envelope {
+  color: gray;
+  font-size: 15px;
+}
+
+.bi-bell {
+  color: gray;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.bi-power {
+  color: gray;
+  font-size: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  height: 50px;
+  background-color: white;
+}
+
+/*  ======= Media Queries ========*/
+
+@media screen and (max-width: 350px) {
+}
