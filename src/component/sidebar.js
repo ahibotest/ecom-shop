@@ -71,7 +71,10 @@ function sidebar() {
         </svg>
       </Link>
 
-      <Link style={{ textDecoration: "none", color: "gray" }} to="/Transactions">
+      <Link
+        style={{ textDecoration: "none", color: "gray" }}
+        to="/Transactions"
+      >
         <svg
           width="1em"
           height="1em"

@@ -1,7 +1,6 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import Appheader from "./component/appheader.js";
 import Sidebar from "./component/sidebar";
 import Dashboard from "./pages/dashboard";
@@ -17,7 +16,7 @@ function App() {
       <div className="App">
         <Appheader />
         <div className="main_window">
-          <Sidebar />.
+          <Sidebar />
           <Switch>
             <Route path="/" exact component={Dashboard} />
             <Route path="/Dashboard" exact component={Dashboard} />

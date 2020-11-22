@@ -11,7 +11,7 @@ function Products() {
   };
 
   return (
-    <div>
+    <div className="table_container">
       <button onClick={handleClick} className="add_product_btn">
         <svg
           style={{ marginRight: "10px" }}
@@ -31,6 +31,7 @@ function Products() {
       </button>
 
       <EnhancedTable />
+
       {showFormModal && (
         <VendorProductUploadForm
           setShowFormModal={setShowFormModal}

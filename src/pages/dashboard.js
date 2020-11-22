@@ -2,7 +2,7 @@ import "./dashboard.css";
 
 function dashboard() {
   return (
-    <div className="body_content">
+    <div className="dashboard_content">
       <div className="active_menu_container">
         <svg
           width="1em"

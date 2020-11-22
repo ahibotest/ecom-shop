@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+}
+.title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.row {
+  margin: 30px;
+}
+

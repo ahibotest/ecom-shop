@@ -3,7 +3,7 @@ import EnhancedTable from "../component/EnhancedTable";
 
 function reports() {
   return (
-    <div>
+    <div className="container">
       <EnhancedTable />
     </div>
   );
