@@ -3,20 +3,20 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-bottom: 20px;
+  margin:5px;
+
 }
 
 .dashboard_content {
   width: 100%;
+  margin: 10px;
+
 }
 
 .top_cards_container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -24,28 +24,29 @@
 .sales_card {
   background-image: linear-gradient(
     to right,
-    rgb(216, 117, 117),
-    rgb(236, 182, 119)
+    rgb(236, 182, 119),
+    rgb(216, 117, 117)
   );
 }
 
 .returns_card {
   background-image: linear-gradient(
     to right,
-    rgb(111, 109, 216),
-    rgb(192, 194, 225)
+    rgb(192, 194, 225),
+    rgb(111, 109, 216)
   );
 }
 
 .revenue_card {
   background-image: linear-gradient(
     to right,
-    rgb(71, 218, 96),
-    rgb(152, 236, 156)
+    rgb(152, 236, 156),
+    rgb(71, 218, 96)
   );
 }
 
 .card {
+  position: relative;
   width: 400px;
   height: 180px;
   text-align: center;
@@ -54,6 +55,12 @@
   margin: 5px;
   flex: 1 0 50%;
   box-shadow: 1px 0px 7px 0px gray;
+}
+
+.circle_img {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .innercard_container {
