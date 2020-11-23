@@ -16,7 +16,6 @@ function App() {
       <div className="App">
         <Appheader />
         <div className="main_window">
-          <Sidebar />
           <Switch>
             <Route path="/" exact component={Dashboard} />
             <Route path="/Dashboard" exact component={Dashboard} />

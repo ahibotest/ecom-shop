@@ -23,22 +23,22 @@ function dashboard() {
       <div className="top_cards_container">
         <div className="card sales_card">
           <div className="innercard_container">
-            <p className="weekly_sales">Weekly sales</p>
-            <p className="weekly_dollar">$150.00</p>
+            <p className="weekly_sales">Daily sales</p>
+            <p className="weekly_dollar">$1750.00</p>
             <p></p>
           </div>
         </div>
         <div className="card returns_card">
           <div className="innercard_container">
             <p className="weekly_sales">Weekly sales</p>
-            <p className="weekly_dollar">$150.00</p>
+            <p className="weekly_dollar">$270.00</p>
             <p></p>
           </div>
         </div>
         <div className="card revenue_card">
           <div className="innercard_container">
-            <p className="weekly_sales">Weekly sales</p>
-            <p className="weekly_dollar">$150.00</p>
+            <p className="weekly_sales">Monthly sales</p>
+            <p className="weekly_dollar">$126.00</p>
             <p></p>
           </div>
         </div>
