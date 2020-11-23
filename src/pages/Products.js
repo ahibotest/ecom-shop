@@ -11,15 +11,15 @@ function Products() {
   };
 
   return (
-    <div className="table_container">
+    <div className="products_container">
       <button onClick={handleClick} className="add_product_btn">
         <svg
           style={{ marginRight: "10px" }}
-          width="1em"
-          height="1em"
+          width="1.5em"
+          height="1.5em"
           viewBox="0 0 16 16"
           class="bi bi-plus-circle-fill"
-          fill="lightgreen"
+          fill="white"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
@@ -30,14 +30,16 @@ function Products() {
         Add Product
       </button>
 
-      <EnhancedTable />
+      <div className="table_container">
+        <EnhancedTable />
 
-      {showFormModal && (
-        <VendorProductUploadForm
-          setShowFormModal={setShowFormModal}
-          className="product_upload"
-        />
-      )}
+        {showFormModal && (
+          <VendorProductUploadForm
+            setShowFormModal={setShowFormModal}
+            className="product_upload"
+          />
+        )}
+      </div>
     </div>
   );
 }

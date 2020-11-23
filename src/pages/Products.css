@@ -1,4 +1,7 @@
-.table_container {
+.products_container {
   width: 100%;
 }
 
+.table_container {
+  margin: 10px;
+}

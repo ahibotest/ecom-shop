@@ -209,10 +209,10 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     width: "100%",
-    marginBottom: theme.spacing(2),
+    marginBottom: theme.spacing(1),
   },
   table: {
-    minWidth: 750,
+    minWidth: 700,
     fontFamily: "Maven Pro",
   },
   visuallyHidden: {
