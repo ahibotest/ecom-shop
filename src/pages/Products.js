@@ -18,7 +18,7 @@ function Products() {
           width="1.5em"
           height="1.5em"
           viewBox="0 0 16 16"
-          class="bi bi-plus-circle-fill"
+          className="bi bi-plus-circle-fill"
           fill="white"
           xmlns="http://www.w3.org/2000/svg"
         >

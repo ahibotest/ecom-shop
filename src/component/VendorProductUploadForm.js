@@ -1,4 +1,3 @@
-import React from "react";
 
 const VendorProductUploadForm = ({ setShowFormModal }) => {
   const handleClick = (e) => {
