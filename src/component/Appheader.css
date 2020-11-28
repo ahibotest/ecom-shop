@@ -1,0 +1,92 @@
+.Brand {
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* floating divs */
+.notification_container {
+  position: relative;
+}
+
+.notification_messages p {
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(104, 107, 109);
+  border-bottom: 1px solid lightgray;
+  flex: 1;
+}
+
+.notification_messages {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 99999;
+  top: 19px;
+  right: 5px;
+  width: 100px;
+
+  position: absolute;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: -0.5px 1px 5px 0px gray;
+  color: black;
+}
+
+.store_name {
+  font-size: 10px;
+}
+
+.bi-chevron-down {
+  font-size: 7px;
+}
+
+.mobile {
+  display: block;
+}
+
+.bi-list {
+  cursor: pointer;
+}
+
+.for_mobile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 50px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.desktop {
+  display: none;
+}
+
+.bi-bell {
+  color: gray;
+  font-size: 13px;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.mobile_sidebar {
+  position: absolute !important;
+  top: 70px !important;
+  right: 20px !important;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 50px;
+  background-color: white;
+}

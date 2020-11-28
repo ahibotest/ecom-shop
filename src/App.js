@@ -1,7 +1,7 @@
 import "./App.css";
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Appheader from "./component/appheader.js";
+import Appheader from "./component/Appheader.js";
 import Sidebar from "./component/sidebar";
 import Dashboard from "./pages/dashboard";
 import orders from "./pages/orders";
@@ -11,11 +11,30 @@ import Transactions from "./pages/Transactions";
 import VendorProductUploadForm from "./component/VendorProductUploadForm";
 
 function App() {
+  const [isMobile, setMobile] = useState(false);
+  const [size, setSize] = useState([0, 0]);
+
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+      if (window.innerWidth <= 550) {
+        setMobile(true);
+      } else {
+        setMobile(false);
+      }
+    }
+    window.addEventListener("resize", updateSize);
+    updateSize();
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+
   return (
     <Router>
       <div className="App">
         <Appheader />
+
         <div className="main_window">
+          {isMobile ? "" : <Sidebar />}
           <Switch>
             <Route path="/" exact component={Dashboard} />
             <Route path="/Dashboard" exact component={Dashboard} />

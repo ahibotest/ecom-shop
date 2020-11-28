@@ -3,14 +3,11 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin:5px;
-
+  margin: 5px;
 }
 
 .dashboard_content {
   width: 100%;
-  margin: 10px;
-
 }
 
 .top_cards_container {
@@ -101,4 +98,11 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: -3px 5px 5px 0px lightgray;
+}
+
+@media only screen and (min-device-width: 550px) {
+  .dashboard_content {
+    width: 100%;
+    margin: 10px;
+  }
 }
