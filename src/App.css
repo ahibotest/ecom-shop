@@ -8,6 +8,8 @@
 
 body {
   background-color: #f2edf3;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .main_window {
