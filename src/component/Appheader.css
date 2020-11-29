@@ -73,12 +73,6 @@
   cursor: pointer;
 }
 
-.mobile_sidebar {
-  position: absolute !important;
-  top: 70px !important;
-  right: 20px !important;
-}
-
 .header {
   position: relative;
   display: flex;

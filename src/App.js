@@ -9,10 +9,12 @@ import Products from "./pages/Products";
 import reports from "./pages/reports";
 import Transactions from "./pages/Transactions";
 import VendorProductUploadForm from "./component/VendorProductUploadForm";
+import MobileNavDrawer from "./component/MobileNavDrawer";
 
 function App() {
   const [isMobile, setMobile] = useState(false);
   const [size, setSize] = useState([0, 0]);
+  const [isMenuClicked, setIsMenuClicked] = useState(false);
 
   useLayoutEffect(() => {
     function updateSize() {
@@ -31,7 +33,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Appheader />
+        <Appheader setIsMenuClicked={setIsMenuClicked} />
 
         <div className="main_window">
           {isMobile ? "" : <Sidebar />}
@@ -47,6 +49,7 @@ function App() {
             <Route path="/reports" component={reports} />
             <Route path="/Transactions" component={Transactions} />
           </Switch>
+          {isMenuClicked ? "" : <MobileNavDrawer />}
         </div>
       </div>
     </Router>

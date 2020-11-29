@@ -1,8 +1,8 @@
 import "./Appheader.css";
 import { Link } from "react-router-dom";
-import React, { useRef } from "react";
+import React from "react";
 
-function Appheader() {
+function Appheader({ setIsMenuClicked }) {
   let handleClick = (e) => {
     //code to handle clicking notification button
     if (e.target.nextSibling !== null) {
@@ -11,13 +11,13 @@ function Appheader() {
       } else {
         e.target.nextSibling.style.display = "flex";
       }
-
-      //code to handle clicking notification button
-      //if (e.target.style.display === "flex") {
-      //  e.target.style.display = "none";
-      //} else {
-      //  e.target.style.display = "flex";
-      //}
+    }
+    //code to handle clicking Hamburger button
+    if (e.target.classList.contains("mobile")) {
+      setIsMenuClicked(true);
+      console.log("sss");
+    } else {
+      setIsMenuClicked(false);
     }
   };
 

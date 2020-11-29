@@ -1,0 +1,41 @@
+/*======================== (MobileNavDrawer.css)*/
+
+.mobile_sidebar {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 150px;
+  height: 600px;
+  background-color: white;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif !important;
+  box-shadow: 0px 3px 5px 0px gray;
+}
+
+.menu_item_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 40px;
+}
+
+.menu_item_container p {
+  color: black;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+.menu_item_container img {
+  color: gray;
+}
+
+.svg_home,
+.svg_orders,
+.svg_products,
+.svg_reports,
+.svg_transactions {
+  color: gray;
+}
+/*==============================================*/
