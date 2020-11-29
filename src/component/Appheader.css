@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: flex-start;
   z-index: 99999;
-  top: 19px;
+  top: 27px;
   right: 5px;
   width: 100px;
 
@@ -48,6 +48,8 @@
   display: inline-block;
   border: none;
   margin: 0;
+  width: 30px;
+  height: 30px;
   text-decoration: none;
   cursor: pointer;
   outline: none;
@@ -59,6 +61,8 @@
 
 .notification_button {
   display: inline-block;
+  width: 30px;
+  height: 30px;
   border: none;
   margin: 0;
   text-decoration: none;
