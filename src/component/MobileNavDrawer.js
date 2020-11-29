@@ -4,7 +4,7 @@ import "./MobileNavDrawer.css";
 
 function MobileNavDrawer() {
   return (
-    <div className="animate__animated animate__slideInRight mobile_sidebar">
+    <div className="animate__animated animate__flipInY mobile_sidebar">
       <Link style={{ textDecoration: "none" }} to="/dashboard">
         <div className="menu_item_container">
           <p style={{ color: "rgb(93, 206, 102)" }}>Dashboard</p>

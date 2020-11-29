@@ -21,7 +21,7 @@ function dashboard() {
         <p className="active_menu_display"> Dashboard</p>
       </div>
       <div className="top_cards_container">
-        <div className="card sales_card">
+        <div className="animate__animated animate__flipInX card sales_card">
           <div className="innercard_container">
             <svg
               width="152"
@@ -47,7 +47,7 @@ function dashboard() {
             <p></p>
           </div>
         </div>
-        <div className="card returns_card">
+        <div className="animate__animated animate__flipInX  card returns_card">
           <div className="innercard_container">
             <svg
               width="152"
@@ -75,7 +75,7 @@ function dashboard() {
             <p></p>
           </div>
         </div>
-        <div className="card revenue_card">
+        <div className="animate__animated animate__flipInX  card revenue_card">
           <div className="innercard_container">
             <svg
               width="152"
