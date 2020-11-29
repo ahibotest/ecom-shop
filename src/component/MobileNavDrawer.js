@@ -4,10 +4,10 @@ import "./MobileNavDrawer.css";
 
 function MobileNavDrawer() {
   return (
-    <div className="mobile_sidebar">
+    <div className="animate__animated animate__slideInRight mobile_sidebar">
       <Link style={{ textDecoration: "none" }} to="/dashboard">
         <div className="menu_item_container">
-          <p>Dashboard</p>
+          <p style={{ color: "rgb(93, 206, 102)" }}>Dashboard</p>
           <svg
             width="0.9em"
             height="0.9em"

@@ -2,14 +2,14 @@
 
 .mobile_sidebar {
   position: absolute;
-  top: 50px;
+  top: 49px;
   right: 0px;
   width: 150px;
-  height: 10000px;
+  height: 100vh;
   background-color: white;
   padding: 20px;
   font-family: "Ubuntu", sans-serif !important;
-  box-shadow: 0px 3px 5px 0px gray;
+  box-shadow: 0px 3px 5px -1px gray;
 }
 
 .menu_item_container {
@@ -17,7 +17,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: space-between;
+  align-items: center;
   margin-bottom: 40px;
 }
 
@@ -37,5 +37,17 @@
 .svg_reports,
 .svg_transactions {
   color: gray;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: -1px 2px 7px 1px lightgray;
+}
+
+.svg_home {
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(158, 250, 173),
+    rgb(42, 218, 86)
+  );
 }
 /*==============================================*/
