@@ -37,7 +37,7 @@
 }
 
 .store_name {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .bi-chevron-down {
@@ -72,6 +72,7 @@
 
 .bi-list {
   cursor: pointer;
+  font-size: 19px;
 }
 
 .for_mobile {
@@ -90,7 +91,7 @@
 
 .bi-bell {
   color: gray;
-  font-size: 13px;
+  font-size: 19px;
   font-style: bold;
   cursor: pointer;
 }
