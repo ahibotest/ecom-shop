@@ -33,7 +33,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Appheader setIsMenuClicked={setIsMenuClicked} />
+        <Appheader isMenuClicked={isMenuClicked} setIsMenuClicked={setIsMenuClicked} />
 
         <div className="main_window">
           {isMobile ? "" : <Sidebar />}
@@ -49,7 +49,7 @@ function App() {
             <Route path="/reports" component={reports} />
             <Route path="/Transactions" component={Transactions} />
           </Switch>
-          {isMenuClicked ? "" : <MobileNavDrawer />}
+          {isMenuClicked ? <MobileNavDrawer /> : ""}
         </div>
       </div>
     </Router>

@@ -45,7 +45,29 @@
 }
 
 .mobile {
-  display: block;
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+}
+
+.notification_button {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
 }
 
 .bi-list {
