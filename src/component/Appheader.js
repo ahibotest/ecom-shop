@@ -5,7 +5,20 @@ import React from "react";
 function Appheader({ isMenuClicked, setIsMenuClicked }) {
   let handleClick = (e) => {
     //code to handle clicking notification button
-    if (e.target.classList.contains("bi-bell")) {
+    if (
+      e.target.classList.contains("bi-bell") ||
+      e.target.classList.contains("notification_button")
+    ) {
+      if (e.target.classList.contains("notification_button")) {
+        if (e.target.nextSibling.style.display === "flex") {
+          e.target.nextSibling.style.display = "none";
+          return;
+        } else {
+          e.target.nextSibling.style.display = "flex";
+          return;
+        }
+      }
+
       if (e.target.parentElement.nextSibling.style.display === "flex") {
         e.target.parentElement.nextSibling.style.display = "none";
       } else {
@@ -17,7 +30,10 @@ function Appheader({ isMenuClicked, setIsMenuClicked }) {
 
   let mobileMenuBtn_Click = (e) => {
     //code to handle clicking Mobile Hamburger button
-    if (e.target.classList.contains("bi-list")) {
+    if (
+      e.target.classList.contains("bi-list") ||
+      e.target.classList.contains("mobile")
+    ) {
       if (isMenuClicked) {
         setIsMenuClicked(false);
       } else {
